@@ -30,7 +30,7 @@ for page in gen:
 
 	print(format(percentage, '0.3f'),'%:',page.title(),'has',ilh_num,' interlang links and has removed {{Link Style}}.')
 
-	page.save(u"機器人：摘掉已符合[[WP:MOSIW|跨語言連結規範]]之條目Link Style標記")
+	page.save(u"機器人：摘掉已符合[[WP:MOSIW|跨語言連結規範]]之條目{{[[T:Link Style|Link Style]]}}標記")
 
 
 print('Done')
